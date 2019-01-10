@@ -1,0 +1,51 @@
+.footer{
+  position: relative;
+  color: var(--gray);
+  width: 100%;
+  text-align: left;
+  padding: 1.5rem 0 0 0;
+  h3 {
+    color: var(--grayer);
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 0.875rem;
+    margin: 3px 0 0.875rem 0;
+  }
+}
+.wrapper-post .footer, .wrapper-page .footer {
+  &:before {
+    @include pseudo();
+    left: 0;
+    background-color: var(--light);
+    width: 30%;
+    height: 1px;
+    top: 0;
+  }
+}
+.icon__list {
+  text-align: left;
+  margin: 0 0 1.5rem 0;
+}
+.icon__link svg {
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+}
+.icon__fill {
+  fill: var(--gray);
+}
+.icon__stroke {
+  stroke: var(--gray);
+}
+.icon__list a:hover .icon__fill {
+  fill: var(--dark);
+}
+.icon__list a:hover .icon__stroke {
+  stroke: var(--dark);
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+  }
+}

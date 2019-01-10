@@ -1,0 +1,10 @@
+.top-nav {
+  margin: 0 0 3.5rem 0;
+  text-align: right;
+  a {
+    margin: 0 0 0 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{ site.title }}">
+  <meta name="google-site-verification" content="1mZm9i5EpTz20fLOPSbIRjIS1_pQOl7yfJcZqxbwXhA" />
+  {% if page.layout == "home" %}
+    <title>{{ site.title }}</title>
+  {% else %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  {% endif %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  <meta name="description" content="{{ page.description }}">
+  {% include assets.html %}
+</head>

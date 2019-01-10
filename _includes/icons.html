@@ -1,0 +1,20 @@
+<div class="icon__list">
+  {% if site.email %}
+  <a href="mailto:{{ site.email }}" class="icon__link" target="_blank">
+    {% include icons/mail.html %}
+  </a>
+  {% endif %}
+  {% if site.github_username %}
+  <a href="https://github.com/{{ site.github_username }}" class="icon__link" target="_blank">
+    {% include icons/github.html %}
+  </a>
+  {% endif %}
+  {% if site.twitter_username %}
+  <a href="https://twitter.com/{{ site.twitter_usename }}" class="icon__link" target="_blank">
+    {% include icons/twitter.html %}
+  </a>
+  {% endif %}
+  <a href="/feed.xml" class="icon__link">
+    {% include icons/rss.html %}
+  </a>
+</div>
