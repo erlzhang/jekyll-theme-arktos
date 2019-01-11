@@ -4,6 +4,8 @@ A minimalist Jekyll theme Anatole.
 
 ![jekyll-theme-anatole](screenshot.png)
 
+Your can find a demo [here](https://erlzhang.github.io/anatole-demo/)!
+
 
 ## Installation
 
