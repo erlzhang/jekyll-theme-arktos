@@ -1,10 +1,10 @@
-# Anatole
+# Arktos
 
-A minimalist Jekyll theme Anatole.
+A minimalist Jekyll theme arktos.
 
-![jekyll-theme-anatole](screenshot.png)
+![jekyll-theme-arktos](screenshot.png)
 
-Your can find a demo [here](https://erlzhang.github.io/anatole-demo/)!
+Your can find a demo [here](https://erlzhang.github.io/arktos-demo/)!
 
 
 ## Installation
@@ -12,13 +12,13 @@ Your can find a demo [here](https://erlzhang.github.io/anatole-demo/)!
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-anatole"
+gem "jekyll-theme-arktos"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-theme-anatole
+theme: jekyll-theme-arktos
 ```
 
 And then execute:
@@ -27,14 +27,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-theme-anatole
-    
+    $ gem install jekyll-theme-arktos
+
 ### If you are using Github Pages?
 
 Add the following to your site’s `_config.yml` file.
 
 ```yml
-remote_theme: erlzhang/jekyll-theme-anatole
+remote_theme: erlzhang/jekyll-theme-arktos
 ```
 
 ## Usage
@@ -70,7 +70,7 @@ graph TD;
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/erlzhang/jekyll-theme-anatole. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/erlzhang/jekyll-theme-arktos. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

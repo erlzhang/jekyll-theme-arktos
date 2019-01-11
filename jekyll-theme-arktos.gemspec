@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-anatole"
-  spec.version       = "0.1.1"
+  spec.name          = "jekyll-theme-arktos"
+  spec.version       = "0.1.0"
   spec.authors       = ["erlzhang"]
   spec.email         = ["zhangshiyu1992@hotmail.com"]
 
-  spec.summary       = "Jekyll simple theme anatole."
-  spec.homepage      = "https://github.com/erlzhang/jekyll-theme-anatole"
+  spec.summary       = "Jekyll simple theme Arktos."
+  spec.homepage      = "https://github.com/erlzhang/jekyll-theme-arktos"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }

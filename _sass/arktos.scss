@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+// common
+@import "arktos/variables";
+@import "arktos/minxins";
+@import "arktos/common";
+@import "arktos/content";
+@import "arktos/footer";
+@import "arktos/header";
+
+// 404
+@import "arktos/error";
+
+//blog
+@import "arktos/post";
+@import "arktos/blog";
