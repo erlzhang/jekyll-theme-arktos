@@ -12,6 +12,21 @@
     font-size: 0.875rem;
     margin: 3px 0 0.875rem 0;
   }
+  .footer_bottom {
+    padding-top: 1rem;
+    position: relative;
+    a:hover {
+      text-decoration: underline;
+    }
+    &:before {
+      @include pseudo();
+      left: 0;
+      background-color: var(--light);
+      width: 30%;
+      height: 1px;
+      top: 0;
+    }
+  }
 }
 .wrapper-post .footer, .wrapper-page .footer {
   &:before {
