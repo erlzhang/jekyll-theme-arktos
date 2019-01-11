@@ -29,6 +29,15 @@ Or install it yourself as:
 
 ## Usage
 
+### Compatible with  jekyll-paginate-v2
+
+But you should enable it in your `_config.yml`.
+
+```yml
+pagination:
+  enabled: true
+```
+
 ### Enabling Excerpts on the Home Page
 
 To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
