@@ -28,6 +28,14 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jekyll-anatole
+    
+### If you are using Github Pages?
+
+Add the following to your site’s `_config.yml` file.
+
+```yml
+remote_theme: erlzhang/jekyll-theme-anatole
+```
 
 ## Usage
 
