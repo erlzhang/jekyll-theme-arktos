@@ -53,7 +53,8 @@ pagination:
 To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
 
 ```yml
-show_excerpts: true
+arktos:
+  excerpt: true
 ```
 
 ### How to use mermaid?
