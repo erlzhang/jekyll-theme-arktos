@@ -27,7 +27,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-anatole
+    $ gem install jekyll-theme-anatole
     
 ### If you are using Github Pages?
 
