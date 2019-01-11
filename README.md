@@ -39,7 +39,15 @@ show_excerpts: true
 
 ### How to use mermaid?
 
-*TODO*
+<pre class="language-md">
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+</pre>
 
 ## Contributing
 
