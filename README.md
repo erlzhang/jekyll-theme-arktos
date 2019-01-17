@@ -6,6 +6,8 @@ A minimalist Jekyll theme arktos.
 
 Your can find a demo [here](https://erlzhang.github.io/arktos-demo/)!
 
+[中文文档](http://yexiqingxi.com/blog/jekyll-theme-arktos.html)
+
 
 ## Installation
 
