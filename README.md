@@ -1,5 +1,7 @@
 # Arktos
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-arktos.svg)](https://badge.fury.io/rb/jekyll-theme-arktos)
+
 A minimalist Jekyll theme arktos.
 
 ![jekyll-theme-arktos](screenshot.png)
